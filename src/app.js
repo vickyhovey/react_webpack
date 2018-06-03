@@ -12,6 +12,13 @@
 // console.log(isSenior(64));
 
 // install -> import -> use
-import validator from 'validator';
+// import validator from 'validator';
 
-console.log(validator.isEmail('vickyhovey@gmail.com'));
+// console.log(validator.isEmail('vickyhovey@gmail.com'));
+
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const template = React.createElement('p', {}, 'testing 123');
+ReactDOM.render(template, document.getElementById('app'));
